@@ -1,19 +1,20 @@
 # Basic-Shell-in-C
 Basic Linux Shell in C that saves history across sessions and has a simulated change directory function
 
-Functionality:
-  #  movetodir directory - Simulated move directory through an intenal varibale
+# Functionality:
   
-  # whereami - shows contents of varaible containing the simulated current location
+  #movetodir directory - Simulated move directory through an intenal varibale
   
-  # history [-c] - prints saved history (cross sessions) in decending order with a number -c clears the history
+  #whereami - shows contents of varaible containing the simulated current location
   
-  # byebye - Exits the shell
+  #history [-c] - prints saved history (cross sessions) in decending order with a number -c clears the history
   
-  # replay number - replays a selected number from history
+  #byebye - Exits the shell
   
-  # start program [parameters] - starts a program and doesnt return until closed
+  #replay number - replays a selected number from history
   
-  # background program [parameters] - starts in background and returns a PID
+  #start program [parameters] - starts a program and doesnt return until closed
   
-  # dalek PID - kills selected PID
+  #background program [parameters] - starts in background and returns a PID
+  
+  #dalek PID - kills selected PID
